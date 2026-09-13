@@ -21,7 +21,7 @@ export default function Scholarships() {
   return (
     <div className="max-w-4xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
       <div className="text-center mb-12">
-        <h1 className="font-heading font-extrabold text-4xl text-primary tracking-tight mb-2">Scholarships</h1>
+        <h1 className="font-heading font-extrabold text-4xl text-primary tracking-tight mb-2">Give Back To The Community</h1>
         <p className="font-body text-gray-500 max-w-xl mx-auto">
           Financial support, awards, and opportunities sponsored by the OXAR Alumni Association.
         </p>
