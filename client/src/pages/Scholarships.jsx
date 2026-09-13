@@ -7,7 +7,7 @@ export default function Scholarships() {
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
-    supabase.from('scholarships')
+    supabase.from('Give Back to Community')
       .select('*')
       .order('created_at', { ascending: false })
       .then(({ data, error }) => {
