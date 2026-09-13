@@ -34,9 +34,9 @@ export default function Scholarships() {
       ) : scholarships.length === 0 ? (
         <div className="bg-[#f9f9fd] border border-[#E0E0E0] rounded-lg p-8 text-center max-w-lg mx-auto">
           <Award className="h-12 w-12 text-gray-400 mx-auto mb-4" />
-          <h3 className="font-heading font-bold text-lg text-primary mb-2">No Scholarships Available</h3>
+          <h3 className="font-heading font-bold text-lg text-primary mb-2">To Be Announced</h3>
           <p className="font-body text-sm text-gray-500">
-            No scholarships available at this moment. Please check back later or contact the council for upcoming sponsorships.
+            Please check back later or contact the council for upcoming sponsorships
           </p>
         </div>
       ) : (
